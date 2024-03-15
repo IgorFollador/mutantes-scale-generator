@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const db = require('./database');
 const cron = require('node-cron');
